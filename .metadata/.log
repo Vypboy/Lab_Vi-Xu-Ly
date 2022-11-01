@@ -1,0 +1,18 @@
+!SESSION 2022-11-01 09:21:08.763 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-01 09:21:16.442
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-01 09:21:16.509
+!MESSAGE Log4j initialized with config file D:\Tai lieu BK\File TN\Vi xu ly\LAB_VXL\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-01 09:21:24.013
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:22:11.768
+!MESSAGE Indexed 'Lab2.1' (19 sources, 96 headers) in 2.87 sec: 7,432 declarations; 34,695 references; 6 unresolved inclusions; 295 syntax errors; 1,121 unresolved names (2.6%)
