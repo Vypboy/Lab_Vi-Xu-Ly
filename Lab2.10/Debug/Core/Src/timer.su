@@ -1,0 +1,5 @@
+timer.c:21:6:setTimerClock	16	static
+timer.c:26:6:setTimerDOT	16	static
+timer.c:31:6:setTimer7SEG	16	static
+timer.c:36:6:setTimerMaxtrix	16	static
+timer.c:41:6:timerRun	4	static

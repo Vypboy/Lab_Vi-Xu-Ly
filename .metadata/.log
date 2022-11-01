@@ -16,3 +16,42 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:22:11.768
 !MESSAGE Indexed 'Lab2.1' (19 sources, 96 headers) in 2.87 sec: 7,432 declarations; 34,695 references; 6 unresolved inclusions; 295 syntax errors; 1,121 unresolved names (2.6%)
+!SESSION 2022-11-01 09:41:55.411 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-01 09:44:29.790
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-01 09:44:29.853
+!MESSAGE Log4j initialized with config file D:\Tai lieu BK\File TN\Vi xu ly\LAB_VXL\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-01 09:44:40.225
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:45:11.282
+!MESSAGE Indexed 'Lab2.2' (19 sources, 96 headers) in 2.71 sec: 7,434 declarations; 34,855 references; 6 unresolved inclusions; 295 syntax errors; 1,141 unresolved names (2.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:45:27.194
+!MESSAGE Indexed 'Lab2.3' (19 sources, 96 headers) in 2.16 sec: 7,438 declarations; 34,856 references; 6 unresolved inclusions; 295 syntax errors; 1,141 unresolved names (2.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:45:42.862
+!MESSAGE Indexed 'Lab2.4' (19 sources, 96 headers) in 2.11 sec: 7,439 declarations; 34,857 references; 6 unresolved inclusions; 295 syntax errors; 1,141 unresolved names (2.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:46:05.465
+!MESSAGE Indexed 'Lab2.5' (19 sources, 96 headers) in 2.18 sec: 7,443 declarations; 34,873 references; 6 unresolved inclusions; 295 syntax errors; 1,141 unresolved names (2.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:46:20.482
+!MESSAGE Indexed 'Lab2.7' (20 sources, 97 headers) in 2.19 sec: 7,476 declarations; 34,891 references; 6 unresolved inclusions; 295 syntax errors; 1,139 unresolved names (2.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:46:36.038
+!MESSAGE Indexed 'Lab2.8' (20 sources, 97 headers) in 2.03 sec: 7,476 declarations; 34,885 references; 6 unresolved inclusions; 295 syntax errors; 1,139 unresolved names (2.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:46:51.611
+!MESSAGE Indexed 'Lab2.9' (20 sources, 97 headers) in 2.19 sec: 7,481 declarations; 35,219 references; 6 unresolved inclusions; 295 syntax errors; 1,236 unresolved names (2.8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:47:52.903
+!MESSAGE Indexed 'Lab2.10' (20 sources, 97 headers) in 2.05 sec: 7,484 declarations; 35,228 references; 6 unresolved inclusions; 295 syntax errors; 1,236 unresolved names (2.8%)
