@@ -1,0 +1,27 @@
+!SESSION 2022-11-01 09:10:54.180 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-01 09:11:19.660
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-01 09:11:19.728
+!MESSAGE Log4j initialized with config file D:\Tai lieu BK\File TN\Vi xu ly\LAB_VXL\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-01 09:11:28.679
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:12:29.436
+!MESSAGE Indexed 'LED_BLINKY' (19 sources, 96 headers) in 2.77 sec: 6,757 declarations; 19,299 references; 6 unresolved inclusions; 268 syntax errors; 834 unresolved names (3.1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:13:42.891
+!MESSAGE Indexed 'Traffic_Light' (19 sources, 96 headers) in 2.09 sec: 6,759 declarations; 19,438 references; 6 unresolved inclusions; 268 syntax errors; 849 unresolved names (3.1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:14:05.549
+!MESSAGE Indexed 'Simple_7SEG' (19 sources, 96 headers) in 2.04 sec: 6,760 declarations; 19,894 references; 6 unresolved inclusions; 268 syntax errors; 901 unresolved names (3.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 09:14:17.718
+!MESSAGE Indexed '7SEG' (19 sources, 96 headers) in 1.88 sec: 6,773 declarations; 20,075 references; 6 unresolved inclusions; 268 syntax errors; 923 unresolved names (3.3%)
