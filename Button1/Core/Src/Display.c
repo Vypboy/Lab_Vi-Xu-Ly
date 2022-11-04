@@ -8,10 +8,37 @@
 #include "Display.h"
 #include "main.h"
 #include "global.h"
+#include "Software_timer.h"
 
-const int MAX_LED = 4;
-int index_led = 0;
-int led_buffer[4] = {0, 0, 0, 0};
+//=========================
+//	FOR DISPLAY COLORFUL LEDS
+//=========================
+
+//ham BkinkLed() de thuc hien nhap nhau 4 den cung mau trong trang thai MODE
+int status1=0;
+void BlinkLed(enum TypeLed L){
+	if(timer5_flag==1){
+		setTimer5(250);
+		if(status1==1){
+			if(L == Red){
+				Display_Led_Red1();
+				Display_Led_Red2();
+			}
+			else if(L == Green){
+				Display_Led_Green1();
+				Display_Led_Green2();
+			}
+			else if(L == Yellow){
+				Display_Led_Yellow1();
+				Display_Led_Yellow2();
+			}
+		}
+		else{
+			Display_Init();
+		}
+		status1=1 - status1;
+	}
+}
 
 void Display_Init(){
 	HAL_GPIO_WritePin(RED1_GPIO_Port, RED1_Pin, GPIO_PIN_RESET);
@@ -55,6 +82,12 @@ void Display_Led_Yellow2(){
 	HAL_GPIO_WritePin(YELLOW2_GPIO_Port, YELLOW2_Pin, GPIO_PIN_SET);
 }
 
+//=========================
+//	FOR 7SEG_DISPLAY
+//=========================
+const int MAX_LED = 4;
+int index_led = 0;
+int led_buffer[4] = {0, 0, 0, 0};
 
 void display7SEG(int num){
 	//outputs: SEG7 -> SEG0
@@ -163,6 +196,8 @@ int time1 = 0;//don vi s
 int time2 = 0;//don vi s
 
 void Run_7SEG(){
+	//sau trang thai MAN(MODE) thi ta se reset system nen
+	//phai cap nhat lai bien dem time1, time2 de update len buffer
 	if(status_col==MAN_RED || status_col==MAN_GREEN || status_col==MAN_YELLOW){
 		time1 = Time_Auto_Red/1000;//don vi s
 		time2 = Time_Auto_Green/1000;//don vi s

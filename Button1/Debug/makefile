@@ -64,8 +64,8 @@ all: main-build
 main-build: Button1.elf secondary-outputs
 
 # Tool invocations
-Button1.elf: $(OBJS) $(USER_OBJS) D:\Tai\ lieu\ BK\File\ TN\Vi\ xu\ ly\Lab3\Traffic_Light\STM32F103C6UX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Button1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\Tai lieu BK\File TN\Vi xu ly\Lab3\Traffic_Light\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Button1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Button1.elf: $(OBJS) $(USER_OBJS) D:\Tai\ lieu\ BK\File\ TN\Vi\ xu\ ly\LAB_VXL\Button1\STM32F103C6UX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Button1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\Tai lieu BK\File TN\Vi xu ly\LAB_VXL\Button1\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Button1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
