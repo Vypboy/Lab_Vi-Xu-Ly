@@ -1,7 +1,6 @@
 #include "scheduler.h"
 
 sTasks SCH_tasks_G[SCH_MAX_TASKS];
-uint8_t current_index_task = 0;
 #define TICK 10
 
 
