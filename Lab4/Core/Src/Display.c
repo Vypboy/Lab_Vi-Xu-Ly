@@ -43,4 +43,3 @@ void red5display(){
 	HAL_GPIO_TogglePin(RED5_GPIO_Port, RED5_Pin);
 }
 
-
