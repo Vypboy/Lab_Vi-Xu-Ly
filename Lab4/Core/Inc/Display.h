@@ -1,6 +1,8 @@
 #ifndef INC_DISPLAY_H_
 #define INC_DISPLAY_H_
-
+void redtest();
+void yellowtest();
+void greentest();
 void red1display();
 void red2display();
 void red3display();

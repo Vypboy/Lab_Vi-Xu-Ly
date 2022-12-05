@@ -99,11 +99,15 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   SCH_Init();
-  SCH_Add_Task(red1display,0,2000);
-  SCH_Add_Task(red2display,1000,4000);
-  SCH_Add_Task(red3display,2000,2000);
-  SCH_Add_Task(red4display,3000,5000);
-  SCH_Add_Task(red5display,2000,0);
+  //5 tasks running periodically in 0.5 second, 1 second,
+  //1.5 seconds, 2 seconds, 2.5 seconds.
+  SCH_Add_Task(red1display,0,500);
+  SCH_Add_Task(red2display,500,1000);
+  SCH_Add_Task(red3display,1500,1500);
+  SCH_Add_Task(red4display,3000,2000);
+  SCH_Add_Task(red5display,5000,2500);
+  // 1 task running one time after 3s
+  SCH_Add_Task(greentest,3000,0);
   while (1)
   {
 	  SCH_Dispatch_Tasks();
