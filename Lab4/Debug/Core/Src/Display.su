@@ -1,8 +1,0 @@
-Display.c:14:6:redtest	8	static
-Display.c:19:6:yellowtest	8	static
-Display.c:24:6:greentest	8	static
-Display.c:30:6:red1display	8	static
-Display.c:33:6:red2display	8	static
-Display.c:36:6:red3display	8	static
-Display.c:39:6:red4display	8	static
-Display.c:42:6:red5display	8	static
