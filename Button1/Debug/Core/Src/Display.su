@@ -1,0 +1,12 @@
+Display.c:19:6:BlinkLed	16	static
+Display.c:43:6:Display_Init	8	static
+Display.c:53:6:Display_Led_Red1	8	static
+Display.c:58:6:Display_Led_Green1	8	static
+Display.c:63:6:Display_Led_Yellow1	8	static
+Display.c:69:6:Display_Led_Red2	8	static
+Display.c:74:6:Display_Led_Green2	8	static
+Display.c:79:6:Display_Led_Yellow2	8	static
+Display.c:92:6:display7SEG	16	static
+Display.c:149:6:update7SEG	16	static
+Display.c:186:6:updateClockBuffer	16	static
+Display.c:198:6:Run_7SEG	8	static
